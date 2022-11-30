@@ -1,0 +1,104 @@
+.chipta {
+	width: 90%;
+	margin: 0 auto;
+
+	.asos {
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+		.copy {
+			border: 2px solid gray;
+			padding: 20px;
+			border-radius: 15px;
+		}
+	}
+
+	.chipta_images {
+		justify-content: space-between;
+		display: flex;
+		align-items: center;
+
+		.chipta_img {
+			text-align: center;
+
+			img {
+				border-radius: 15px;
+				border: 3px solid gray;
+				width: 400px;
+			}
+
+			h1 {
+				margin: 30px 0;
+			}
+
+			p {
+				width: 400px;
+				line-height: 24px;
+			}
+		}
+
+	}
+
+	h3 {
+		margin: 40px 0;
+		width: 100%;
+		font-family: Arial, Helvetica, sans-serif;
+		text-align: center;
+		font-size: 30px;
+	}
+
+	.input {
+		margin: 0 auto;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		padding: 20px;
+		border-radius: 15px;
+		border: 3px solid gray;
+		width: 400px;
+		height: 320px;
+
+
+		.input_in {
+			display: flex;
+			flex-direction: column;
+			height: 50px;
+			justify-content: space-between;
+
+			input {
+				padding: 5px 15px;
+				border-radius: 10px;
+
+			}
+
+			input:hover {
+				border: 3px solid blue;
+			}
+		}
+
+		input[type="submit"] {
+			width: 120px;
+			height: 40px;
+			border-radius: 15px;
+			display: flex;
+			border: 2px solid gray;
+			margin: 20px 0 20px 630px;
+			text-align: center;
+			align-items: center;
+			justify-content: center;
+			padding: 10px;
+			font-weight: bold;
+		}
+
+		input[type="submit"]:hover {
+			border: 2px solid blue;
+		}
+
+		input[type="submit"]:active {
+			background: red;
+			color: white;
+		}
+	}
+}

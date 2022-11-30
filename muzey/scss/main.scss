@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Fragment+Mono:ital@1&family=Jura:wght@600&family=Lora:ital@1&family=Patrick+Hand&family=Raleway:wght@300;500&family=Sono:wght@500&display=swap');
+@import "./_inson.scss";
+@import "./mehmonlar.scss";
+@import "./muzey.scss";
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	width: 100%;
+	margin: 0 auto;
+
+	header {
+		width: 100%;
+		height: 100vh;
+		background-size: cover;
+		background-image: url(../images/594362.jpg);
+
+		nav {
+			width: 80%;
+			height: 70px;
+			background: rgba(11, 50, 166, 0.566);
+			margin: auto;
+			border-radius: 0 0 15px 15px;
+			display: flex;
+			align-items: center;
+			justify-content: space-around;
+
+			img {
+				width: 180px;
+			}
+
+			.dropdown {
+				// font-family: 'Sono', sans-serif;
+				position: relative;
+				display: inline-block;
+
+				.btn {
+					font-family: 'Raleway', sans-serif;
+					background: none;
+					color: white;
+					padding: 16px;
+					font-size: 16px;
+					border: none;
+					cursor: pointer;
+				}
+
+				.content {
+					display: none;
+					position: absolute;
+					background-color: #274a9ad2;
+					min-width: 160px;
+					box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+					z-index: 1;
+
+					a {
+						color: white;
+						padding: 12px 16px;
+						text-decoration: none;
+						display: block;
+
+					}
+
+					a:hover {
+						background-color: white;
+						color: blue;
+					}
+				}
+			}
+
+			.dropdown:hover .content {
+				display: block;
+			}
+
+			.icon {
+				width: 130px;
+				display: flex;
+				align-items: center;
+				justify-content: space-between;
+
+				a {
+					i {
+						color: white;
+						font-size: 25px;
+
+					}
+
+					:hover {
+						transform: scale(1.2);
+					}
+				}
+			}
+		}
+	}
+
+	main {
+		width: 80%;
+		margin: auto;
+
+		.main-section {
+			margin: 100px 0;
+			width: 100%;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			border-bottom: 4px solid #C7B14F;
+
+			.main-boxes {
+				margin: 100px 0;
+				display: flex;
+				justify-content: space-between;
+				align-items: center;
+				line-height: 30px;
+
+				.main-box {
+					gap: 40px;
+					display: flex;
+					flex-direction: column;
+					justify-content: center;
+					align-items: center;
+					width: 31%;
+
+					h1 {
+						font-family: 'Sono', sans-serif;
+						color: #C7B14F;
+					}
+
+					h2 {
+						font-family: 'Lora', serif;
+						font-size: 18px;
+						color: gray;
+					}
+				}
+			}
+		}
+
+		.haqida {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			margin: 20px 0;
+
+			h1 {
+				color: darkred;
+			}
+
+			hr {
+				width: 83%;
+				color: gray;
+			}
+		}
+
+		.main-bottom {
+			display: flex;
+			align-items: center;
+			line-height: 35px;
+
+			img {
+				width: 50%;
+			}
+
+			h1 {
+				font-family: 'Fragment Mono', monospace;
+				color: grey;
+			}
+		}
+
+		.map {
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+
+			.map-text {
+				margin: 50px 0;
+				width: 650px;
+				font-size: 25px;
+				font-family: 'Fragment Mono', monospace;
+				color: gray;
+				line-height: 45px;
+
+
+				i {
+					display: flex;
+					justify-content: center;
+					font-size: 40px;
+					color: #C7B14F;
+				}
+
+				h1 {
+					color: rgb(72, 51, 51);
+					margin: 30px 0;
+				}
+
+				h3 {
+					span {
+						color: rgb(73, 72, 72);
+					}
+				}
+
+			}
+		}
+
+		a {
+			display: flex;
+			justify-content: center;
+		}
+	}
+
+	footer {
+		margin-top: 30px;
+		width: 100%;
+		height: 300px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background: rgb(28, 27, 27);
+
+		.footer-style {
+			width: 85%;
+			height: 80%;
+			display: flex;
+			align-items: center;
+			justify-content: space-between;
+			color: rgb(170, 157, 157);
+			font-family: Arial, Helvetica, sans-serif;
+
+			.footer-text {
+				width: 15%;
+				height: 100%;
+
+				h3 {
+					margin: 20px 0px;
+				}
+			}
+
+			.aloqa {
+				width: 22%;
+				height: 100%;
+				display: flex;
+				flex-direction: column;
+				justify-content: space-between;
+
+				.tel {
+					display: flex;
+					align-items: center;
+
+					h2 {
+						color: white;
+						margin-left: 20px;
+					}
+
+					i {
+						font-size: 20px;
+					}
+				}
+
+				.email {
+					display: flex;
+					align-items: center;
+
+					h2 {
+						color: white;
+						margin-left: 25px;
+					}
+				}
+
+			}
+
+			.manzil {
+				height: 100%;
+				display: flex;
+				flex-direction: column;
+				justify-content: space-between;
+
+				.icon {
+					width: 100%;
+					display: flex;
+					justify-content: space-around;
+
+					a {
+						font-size: 25px;
+					}
+				}
+			}
+
+			i {
+				color: white;
+
+			}
+
+			i:hover {
+				transform: scale(1.5);
+			}
+		}
+	}
+}

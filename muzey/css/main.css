@@ -1,0 +1,549 @@
+@import url("https://fonts.googleapis.com/css2?family=Fragment+Mono:ital@1&family=Jura:wght@600&family=Lora:ital@1&family=Patrick+Hand&family=Raleway:wght@300;500&family=Sono:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fragment+Mono:ital@1&family=Jura:wght@600&family=Lora:ital@1&family=Patrick+Hand&family=Raleway:wght@300;500&family=Sono:wght@500&display=swap");
+.inson {
+  width: 100%;
+  margin: 0 auto;
+}
+.inson .person {
+  margin: auto;
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+}
+.inson .person .box {
+  width: 33.3%;
+}
+.inson .person .box img {
+  width: 460px;
+}
+.inson .person .box h1 {
+  margin: 30px 0px;
+}
+.inson .person .box h1 span {
+  color: rgb(55, 53, 53);
+  font-size: 25px;
+  font-family: "Fragment Mono", monospace;
+}
+.inson .person .box p {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 25px;
+}
+
+.kiyimlar {
+  width: 90%;
+  margin: 0 auto;
+}
+.kiyimlar h1 {
+  margin-top: 30px;
+}
+.kiyimlar h2 {
+  margin: 30px 0px;
+}
+.kiyimlar .kiyim-rasm {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  line-height: 30px;
+}
+.kiyimlar .kiyim-rasm h3 {
+  margin-top: 30px;
+}
+.kiyimlar .kiyim-text {
+  margin-top: 40px;
+  width: 750px;
+  line-height: 25px;
+}
+.kiyimlar .kiyim-text h3 {
+  margin: 20px 0;
+}
+.kiyimlar .kiyim-text a {
+  color: rgb(40, 68, 116);
+  text-decoration: none;
+}
+.kiyimlar .kiyim-text a :hover {
+  color: black;
+  text-decoration: underline;
+}
+.kiyimlar .kiyim-text p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.texnika {
+  width: 85%;
+  margin: 40px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.texnika .adres {
+  width: 550px;
+  color: gray;
+  line-height: 21px;
+}
+.texnika .adres h1 {
+  margin-bottom: 50px;
+  color: rgb(237, 20, 20);
+}
+.texnika .adres h3 {
+  margin-top: 15px;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.texnika .adres h3 span {
+  font-weight: 600;
+  color: black;
+}
+.texnika .image {
+  text-align: center;
+  width: 200px;
+}
+.texnika .image img {
+  margin-top: 10px;
+}
+.texnika .links {
+  display: flex;
+  flex-direction: column;
+}
+.texnika .links .link-in a {
+  padding: 10px 170px 10px 30px;
+  border-radius: 8px;
+  font-size: 20px;
+  display: flex;
+  text-decoration: none;
+  margin-top: 5px;
+  border: 2px solid gray;
+}
+.texnika .links .link-in a:hover {
+  color: white;
+  background-color: gray;
+}
+.texnika .links h2 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS";
+  color: rgb(82, 94, 206);
+  margin: 20px 0;
+}
+.texnika .links a {
+  font-family: sans-serif;
+  text-decoration: none;
+  margin-top: 15px;
+  color: rgb(58, 55, 55);
+}
+.texnika .links a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
+.chipta {
+  width: 90%;
+  margin: 0 auto;
+}
+.chipta .asos {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.chipta .asos .copy {
+  border: 2px solid gray;
+  padding: 20px;
+  border-radius: 15px;
+}
+.chipta .chipta_images {
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+}
+.chipta .chipta_images .chipta_img {
+  text-align: center;
+}
+.chipta .chipta_images .chipta_img img {
+  border-radius: 15px;
+  border: 3px solid gray;
+  width: 400px;
+}
+.chipta .chipta_images .chipta_img h1 {
+  margin: 30px 0;
+}
+.chipta .chipta_images .chipta_img p {
+  width: 400px;
+  line-height: 24px;
+}
+.chipta h3 {
+  margin: 40px 0;
+  width: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 30px;
+}
+.chipta .input {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  border-radius: 15px;
+  border: 3px solid gray;
+  width: 400px;
+  height: 320px;
+}
+.chipta .input .input_in {
+  display: flex;
+  flex-direction: column;
+  height: 50px;
+  justify-content: space-between;
+}
+.chipta .input .input_in input {
+  padding: 5px 15px;
+  border-radius: 10px;
+}
+.chipta .input .input_in input:hover {
+  border: 3px solid blue;
+}
+.chipta .input input[type=submit] {
+  width: 120px;
+  height: 40px;
+  border-radius: 15px;
+  display: flex;
+  border: 2px solid gray;
+  margin: 20px 0 20px 630px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  font-weight: bold;
+}
+.chipta .input input[type=submit]:hover {
+  border: 2px solid blue;
+}
+.chipta .input input[type=submit]:active {
+  background: red;
+  color: white;
+}
+
+.body {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(../images/body.jpg);
+  background-attachment: fixed;
+}
+
+.mamuriyat {
+  width: 80%;
+  margin: 0 auto;
+}
+.mamuriyat .bolim {
+  width: 90%;
+  margin: 30px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.mamuriyat .bolim .img1 {
+  border-radius: 10px;
+  width: 600px;
+  height: 400px;
+  position: relative;
+  z-index: 1;
+}
+.mamuriyat .bolim .bolim_text {
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  justify-content: center;
+  right: 202px;
+  position: absolute;
+  z-index: 2;
+  width: 600px;
+  height: 300px;
+  background: linear-gradient(90deg, rgb(255, 255, 255) 56%, rgba(0, 212, 255, 0) 100%);
+}
+.mamuriyat .bolim .bolim_text h1 {
+  margin-left: 10px;
+  font-family: "Sono", sans-serif;
+  font-size: 50px;
+  color: rgba(39, 39, 193, 0.766);
+}
+.mamuriyat .bolim .bolim_text h4 {
+  margin-left: 10px;
+  margin-top: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+}
+.mamuriyat .bolim_2 {
+  margin-top: 100px;
+}
+.mamuriyat .person {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 150px;
+  height: 400px;
+}
+.mamuriyat .person .person_img h3 {
+  color: white;
+  margin-top: 30px;
+  font-size: 25px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.mamuriyat .person .person_img .rasmi {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 200px;
+  filter: grayscale(1);
+  transition: all 0.5s ease;
+}
+.mamuriyat .person .person_img .rasmi:hover {
+  transform: scale(1.2);
+  filter: grayscale(0);
+}
+.mamuriyat .person .person_img .rasmi1 {
+  background-image: url(../images/Jabir-Patel.jpg);
+}
+.mamuriyat .person .person_img .rasmi2 {
+  background-image: url(../images/LibertyGlobal.jpg);
+}
+.mamuriyat .person .person_img .rasmi3 {
+  background-image: url(../images/saaj\ patel.jpg);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+}
+.container header {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-image: url(../images/594362.jpg);
+}
+.container header nav {
+  width: 80%;
+  height: 70px;
+  background: rgba(11, 50, 166, 0.566);
+  margin: auto;
+  border-radius: 0 0 15px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.container header nav img {
+  width: 180px;
+}
+.container header nav .dropdown {
+  position: relative;
+  display: inline-block;
+}
+.container header nav .dropdown .btn {
+  font-family: "Raleway", sans-serif;
+  background: none;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+.container header nav .dropdown .content {
+  display: none;
+  position: absolute;
+  background-color: rgba(39, 74, 154, 0.8235294118);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.container header nav .dropdown .content a {
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.container header nav .dropdown .content a:hover {
+  background-color: white;
+  color: blue;
+}
+.container header nav .dropdown:hover .content {
+  display: block;
+}
+.container header nav .icon {
+  width: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container header nav .icon a i {
+  color: white;
+  font-size: 25px;
+}
+.container header nav .icon a :hover {
+  transform: scale(1.2);
+}
+.container main {
+  width: 80%;
+  margin: auto;
+}
+.container main .main-section {
+  margin: 100px 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-bottom: 4px solid #C7B14F;
+}
+.container main .main-section .main-boxes {
+  margin: 100px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  line-height: 30px;
+}
+.container main .main-section .main-boxes .main-box {
+  gap: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 31%;
+}
+.container main .main-section .main-boxes .main-box h1 {
+  font-family: "Sono", sans-serif;
+  color: #C7B14F;
+}
+.container main .main-section .main-boxes .main-box h2 {
+  font-family: "Lora", serif;
+  font-size: 18px;
+  color: gray;
+}
+.container main .haqida {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px 0;
+}
+.container main .haqida h1 {
+  color: darkred;
+}
+.container main .haqida hr {
+  width: 83%;
+  color: gray;
+}
+.container main .main-bottom {
+  display: flex;
+  align-items: center;
+  line-height: 35px;
+}
+.container main .main-bottom img {
+  width: 50%;
+}
+.container main .main-bottom h1 {
+  font-family: "Fragment Mono", monospace;
+  color: grey;
+}
+.container main .map {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container main .map .map-text {
+  margin: 50px 0;
+  width: 650px;
+  font-size: 25px;
+  font-family: "Fragment Mono", monospace;
+  color: gray;
+  line-height: 45px;
+}
+.container main .map .map-text i {
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  color: #C7B14F;
+}
+.container main .map .map-text h1 {
+  color: rgb(72, 51, 51);
+  margin: 30px 0;
+}
+.container main .map .map-text h3 span {
+  color: rgb(73, 72, 72);
+}
+.container main a {
+  display: flex;
+  justify-content: center;
+}
+.container footer {
+  margin-top: 30px;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(28, 27, 27);
+}
+.container footer .footer-style {
+  width: 85%;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: rgb(170, 157, 157);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container footer .footer-style .footer-text {
+  width: 15%;
+  height: 100%;
+}
+.container footer .footer-style .footer-text h3 {
+  margin: 20px 0px;
+}
+.container footer .footer-style .aloqa {
+  width: 22%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.container footer .footer-style .aloqa .tel {
+  display: flex;
+  align-items: center;
+}
+.container footer .footer-style .aloqa .tel h2 {
+  color: white;
+  margin-left: 20px;
+}
+.container footer .footer-style .aloqa .tel i {
+  font-size: 20px;
+}
+.container footer .footer-style .aloqa .email {
+  display: flex;
+  align-items: center;
+}
+.container footer .footer-style .aloqa .email h2 {
+  color: white;
+  margin-left: 25px;
+}
+.container footer .footer-style .manzil {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.container footer .footer-style .manzil .icon {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.container footer .footer-style .manzil .icon a {
+  font-size: 25px;
+}
+.container footer .footer-style i {
+  color: white;
+}
+.container footer .footer-style i:hover {
+  transform: scale(1.5);
+}/*# sourceMappingURL=main.css.map */
